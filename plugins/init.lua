@@ -1,9 +1,6 @@
 return {
   ["goolord/alpha-nvim"] = { disable = true },
   ["max397574/better-escape.nvim"] = { disable = true },
-  ["EdenEast/nightfox.nvim"] = {
-    config = require "user.plugins.nightfox",
-  },
   ["ur4ltz/surround.nvim"] = {
     event = "BufRead",
     config = function()
@@ -68,6 +65,12 @@ return {
   ["hrsh7th/cmp-nvim-lua"] = { after = "cmp_luasnip" },
   ["jvgrootveld/telescope-zoxide"] = {
     module = "telescope._extensions.zoxide",
+  },
+  ["catppuccin/nvim"] = {
+    as = "catppuccin",
+    config = function()
+      require "user.plugins.catppuccin"
+    end,
   },
   ["mickael-menu/zk-nvim"] = {
     -- module = { "zk", "zk.commands" },

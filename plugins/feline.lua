@@ -1,5 +1,6 @@
+local cp = require("catppuccin.palettes").get_palette() -- fetch colors with API
 return {
-  theme = { bg = "#000000", fg = "#cdcecf" },
+  theme = { bg = "#000000", fg = cp.text },
   components = {
     inactive = {
       {
