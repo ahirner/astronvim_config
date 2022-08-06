@@ -20,7 +20,6 @@ return {
     },
     wrap = true,
     showbreak = "↪ ",
-    guifont = "RecMonoCasual NF:h14",
   },
   g = {
     vcoolor_disable_mappings = true,
