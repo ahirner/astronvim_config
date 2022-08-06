@@ -42,7 +42,6 @@ return {
     ["<leader>hp"] = { ":HopPattern<cr>", desc = "Hop Pattern" },
     ["<leader>hw"] = { ":HopWord<cr>", desc = "Hop Word" },
     ["<leader>."] = { "<cmd>cd %:p:h<cr>", desc = "Set CWD" },
-    ["<leader>SD"] = { ":!rm -r /home/dat/.local/share/nvim/sessions/*<cr><cr>", desc = "Delete all sessions" },
     ["<leader>gg"] = {
       function()
         require("toggleterm.terminal").Terminal:new({ cmd = "lazygit", direction = "float", hidden = true }):toggle()

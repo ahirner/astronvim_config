@@ -41,9 +41,6 @@ return {
   ["nvim-telescope/telescope-packer.nvim"] = {
     module = "telescope._extensions.packer",
   },
-  ["aserowy/tmux.nvim"] = {
-    module = "tmux",
-  },
   ["nvim-treesitter/playground"] = {
     cmd = { "TSPlaygroundToggle", "TSHighlightCapturesUnderCursor" },
   },

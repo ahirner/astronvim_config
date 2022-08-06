@@ -13,7 +13,6 @@ return {
 
     -- Formatter
     "prettierd",
-    "shfmt",
     "stylua",
     "black",
 
